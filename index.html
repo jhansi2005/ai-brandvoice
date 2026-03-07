@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Brand Tweet Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Brand Tweet Generator</h1>
+
+<form id="tweetForm">
+
+<label>Brand Name</label>
+<input type="text" id="brand" required>
+
+<label>Industry / Category</label>
+<input type="text" id="industry">
+
+<label>Campaign Objective</label>
+<select id="objective">
+<option>Engagement</option>
+<option>Promotion</option>
+<option>Brand Awareness</option>
+</select>
+
+<label>About the Brand / Products</label>
+<textarea id="about" rows="4"></textarea>
+
+<button type="submit">Generate Tweets</button>
+
+</form>
+
+<div id="result">
+<h2>Output</h2>
+<pre id="outputText"></pre>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
